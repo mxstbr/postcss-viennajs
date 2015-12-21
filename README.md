@@ -1,20 +1,42 @@
-# PostCSS Viennajs [![Build Status][ci-img]][ci]
+# PostCSS ViennaJS [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin to demostrate how to write a PostCSS plugin.
+This is the source code of a demo plugin I wrote during my talk about PostCSS, see here: http://mxs.is/pctalk
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/mxstbr/postcss-viennajs.svg
 [ci]:      https://travis-ci.org/mxstbr/postcss-viennajs
 
-```css
-.foo {
-    /* Input example */
-}
-```
+## Functionality
+
+It turns this
 
 ```css
 .foo {
-  /* Output example */
+    vienna-js: awesome;
+}
+```
+
+into this
+
+```css
+.foo {
+  display: block;
+}
+```
+
+and this
+
+```css
+.foo {
+    vienna-js: horrible;
+}
+```
+
+into this
+
+```css
+.foo {
+  display: none;
 }
 ```
 
