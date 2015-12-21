@@ -1,0 +1,31 @@
+{
+  "name": "postcss-viennajs",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to demostrate how to write a PostCSS plugin",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "viennajs"
+  ],
+  "author": "Max Stoiber <contact@mstoiber.com>",
+  "license": "MIT",
+  "repository": "mxstbr/postcss-viennajs",
+  "bugs": {
+    "url": "https://github.com/mxstbr/postcss-viennajs/issues"
+  },
+  "homepage": "https://github.com/mxstbr/postcss-viennajs",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "gulp-eslint": "^1.1.0",
+    "gulp-mocha": "^2.2.0",
+    "postcss": "^5.0.10"
+  },
+  "devDependencies": {
+    "ava": "^0.4.2",
+    "eslint": "^1.9.0"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  }
+}
